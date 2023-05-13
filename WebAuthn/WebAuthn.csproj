@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>11</LangVersion>
+        <Copyright>Denis Balashov, 2021</Copyright>
+        <Nullable>enable</Nullable>
+        <RootNamespace>WebAuthn</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+        <PackageReference Include="PeterO.Cbor" Version="4.5.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="common.js" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Script\common.js" />
+    </ItemGroup>
+
+</Project>

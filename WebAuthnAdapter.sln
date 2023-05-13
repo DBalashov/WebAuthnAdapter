@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAuthn.Example", "WebAuthn.Example\WebAuthn.Example.csproj", "{A542058C-01C9-42E1-A083-112D340B5FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAuthn", "WebAuthn\WebAuthn.csproj", "{CE8B1611-7786-4299-8995-95873F594D24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A542058C-01C9-42E1-A083-112D340B5FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A542058C-01C9-42E1-A083-112D340B5FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A542058C-01C9-42E1-A083-112D340B5FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A542058C-01C9-42E1-A083-112D340B5FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8B1611-7786-4299-8995-95873F594D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8B1611-7786-4299-8995-95873F594D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8B1611-7786-4299-8995-95873F594D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8B1611-7786-4299-8995-95873F594D24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
