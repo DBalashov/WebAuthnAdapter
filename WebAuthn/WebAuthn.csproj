@@ -3,9 +3,20 @@
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
         <LangVersion>11</LangVersion>
-        <Copyright>Denis Balashov, 2021</Copyright>
+        <Copyright>Denis Balashov, 2023</Copyright>
         <Nullable>enable</Nullable>
         <RootNamespace>WebAuthn</RootNamespace>
+        <AssemblyName>WebAuthn</AssemblyName>
+        <PackageId>$(WebAuthn)</PackageId>
+        <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+        <Version>2023.5.11.0</Version>
+        <AssemblyVersion>$(Version)</AssemblyVersion>
+        <FileVersion>$(Version)</FileVersion>
+        <Description>WebAuthn adapter for ASP.NET Core. MIT License</Description>
+        <Authors>Denis Balashov</Authors>
+        <RepositoryUrl>https://github.com/DBalashov/WebAuthn</RepositoryUrl>
+        <Copyright>Denis Balashov</Copyright>
+        <PackageTags>C#, webauthn, api</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
